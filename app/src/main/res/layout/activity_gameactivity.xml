@@ -8,9 +8,15 @@
     android:background="@drawable/galaxyes">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/spaceshipfriend"
+        android:background="@drawable/fighterplane"
         android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/enemy"
+        android:layout_alignParentTop="true"/>
 </RelativeLayout>
