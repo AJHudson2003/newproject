@@ -2,7 +2,10 @@ package com.example.project2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-        import android.os.Bundle;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,4 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void gotogame (View view){
+        Intent intent = new Intent(this, gameactivity.class);
+        startActivity(intent);
+    }
+
 }
