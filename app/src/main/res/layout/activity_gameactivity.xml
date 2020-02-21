@@ -11,13 +11,13 @@
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/fighterplane"
+        android:background="@drawable/ship"
         android:layout_alignParentBottom="true"/>
     <ImageView
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/enemy"
+        android:background="@drawable/space"
         android:layout_alignParentTop="true"/>
     <Button
         android:layout_width="wrap_content"
