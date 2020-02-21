@@ -17,4 +17,8 @@ public class gameactivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+    public void gotohighscore  (View view){
+        Intent intent = new Intent(this, highscoreactivity.class);
+        startActivity(intent);
+    }
 }
