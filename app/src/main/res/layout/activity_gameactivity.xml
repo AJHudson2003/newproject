@@ -8,6 +8,8 @@
     android:background="@drawable/galaxyes">
 
     <ImageView
+        android:id="@+id/image"
+        android:contentDescription="@string/app_name"
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
