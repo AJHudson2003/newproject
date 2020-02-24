@@ -22,3 +22,4 @@ public class gameactivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+
