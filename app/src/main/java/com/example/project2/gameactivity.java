@@ -3,15 +3,13 @@ package com.example.project2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+
 import android.os.Bundle;
+
 import android.view.View;
 
 
-
 public class gameactivity extends AppCompatActivity {
-
-
-
 
 
     @Override
@@ -27,5 +25,6 @@ public class gameactivity extends AppCompatActivity {
         Intent intent = new Intent(this, highscoreactivity.class);
         startActivity(intent);
     }
+
 
 }

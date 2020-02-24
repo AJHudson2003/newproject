@@ -11,7 +11,7 @@
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:scr ="@drawable/picture"
+        android:scr ="@drawable/ship"
         android:id="@+id/enemy"
         android:layout_alignParentBottom="true"/>
     <ImageView
