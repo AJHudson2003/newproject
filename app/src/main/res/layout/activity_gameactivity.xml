@@ -8,14 +8,14 @@
     android:background="@drawable/galaxyes">
 
     <ImageView
-        android:id="@+id/image"
-        android:contentDescription="@string/app_name"
+        android:id="@+id/image1"
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/ship"
         android:layout_alignParentBottom="true"/>
     <ImageView
+        android:id="@+id/image2"
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
